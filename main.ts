@@ -1,9 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     basic.showString("Hero story")
 })
-input.onGesture(Gesture.ScreenUp, function () {
-    basic.showString("Battle Mode")
-})
 input.onButtonPressed(Button.AB, function () {
     basic.showString("Last Story")
 })
